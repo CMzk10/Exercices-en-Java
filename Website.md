@@ -155,6 +155,28 @@ System.out.println( ) ;
 ```
 
 Exercice 4
+```markdown
+
+public class Exo4 {
+public static void main (String [] args) {
+final int MAX = 10;
+for (int row=1; row<=MAX; row++)
+{
+for (int space=1; space<=row-1; space++)
+{
+System.out.print(" ") ;
+}
+for ( int star=1; star<=MAX-row+1; star++)
+{
+System.out.print("*") ;
+}
+System.out.println( ) ;
+}
+}
+}
+
+
+```
 
 Support ou Contact
 
