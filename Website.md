@@ -88,6 +88,7 @@ Solutions
 Exercice 1
 
 
+
 ```markdown
 
 public class Ex1 {
