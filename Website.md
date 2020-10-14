@@ -1,3 +1,5 @@
+
+
 Bienvenue sur notre page Github 
 
 Vous pouvez retrouver tous les projets et code réalisé par notre département sur [CDMV on Github]().
@@ -85,6 +87,7 @@ Solutions
 
 Exercice 1
 
+
 ```markdown
 
 public class Ex1 {
@@ -103,11 +106,31 @@ System.out.println( ) ;
 
 ```
 
-
 Exercice 2
+
+```markdown
+
+public class Ex2 {
+public static void main (String [] args) {
+final int MAX = 10;
+for ( int row=1; row<=MAX; row++)
+{
+for ( int star=1; star<=MAX-row+1; star++)
+{
+System.out.print("*");
+}
+System.out.println( ) ;
+}
+}
+}
+
+```
+
+
 Exercice 3
 Exercice 4
 
 Support ou Contact
 
 Vous avez des problèmes à créer une page Github? Vous ne comprenez pas la réalisation d'un exercice ? Allez voir notre [documentation](https://help.github.com/categories/github-pages-basics/) ou notre [contact support](https://github.com/contact) et nous vous aiderons à vous en sortir.
+
